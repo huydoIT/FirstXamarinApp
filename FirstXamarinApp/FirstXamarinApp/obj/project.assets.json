@@ -1343,34 +1343,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Huy Do\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/HuyDo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\DevelopProject\\FirstXamarinAppRepo\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp.csproj",
+      "projectUniqueName": "/Users/HuyDo/Projects/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp.csproj",
       "projectName": "FirstXamarinApp",
-      "projectPath": "F:\\DevelopProject\\FirstXamarinAppRepo\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp.csproj",
-      "packagesPath": "C:\\Users\\Huy Do\\.nuget\\packages\\",
-      "outputPath": "F:\\DevelopProject\\FirstXamarinAppRepo\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp\\obj\\",
+      "projectPath": "/Users/HuyDo/Projects/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp.csproj",
+      "packagesPath": "/Users/HuyDo/.nuget/packages/",
+      "outputPath": "/Users/HuyDo/Projects/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Huy Do\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/HuyDo/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1418,7 +1408,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
       }
     }
   }
