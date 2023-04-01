@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:FirstXamarinApp.ViewModel"
+             x:Class="FirstXamarinApp.MainPage" Title="List Item" NavigationPage.HasBackButton="True">
+    <ContentPage.BindingContext>
+        <model:MainViewModel/>
+    </ContentPage.BindingContext>
+    <StackLayout Spacing="0">
+        <Frame BackgroundColor="#2196F3" Padding="0" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <StackLayout Orientation="Vertical"  VerticalOptions="FillAndExpand" Background="LightBLue" Padding="0" Spacing="0">
+            <ListView x:Name="lstPersons">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding FullName}"></TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+        <!--test-->
+        <StackLayout Background="LightGray" Orientation="Vertical" VerticalOptions="End">
+            <StackLayout Background="LightGray" Orientation="Horizontal">
+                <Label Text="CurValue : " />
+                <Label x:Name="lbCurValue" BackgroundColor="BlanchedAlmond" Text="{Binding CurValue, StringFormat='{0} aa'}" TextColor="Blue" WidthRequest="150"/>
+            </StackLayout>
+            <StackLayout Background="LightGray" Orientation="Horizontal">
+                <Button x:Name="btnAdd" Text="+" Command="{Binding CommandAdd}"></Button>
+                <Button x:Name="btnMinimize" Text="-" Command="{Binding CommandMinize}"></Button>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
