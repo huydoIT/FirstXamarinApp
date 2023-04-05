@@ -1,33 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "/Users/HuyDo/Projects/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp.iOS/FirstXamarinApp.iOS.csproj": {}
+    "F:\\DevelopProject\\FirstXamarinAppRepo\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp.iOS\\FirstXamarinApp.iOS.csproj": {}
   },
   "projects": {
-    "/Users/HuyDo/Projects/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp.iOS/FirstXamarinApp.iOS.csproj": {
+    "F:\\DevelopProject\\FirstXamarinAppRepo\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp.iOS\\FirstXamarinApp.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/HuyDo/Projects/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp.iOS/FirstXamarinApp.iOS.csproj",
+        "projectUniqueName": "F:\\DevelopProject\\FirstXamarinAppRepo\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp.iOS\\FirstXamarinApp.iOS.csproj",
         "projectName": "FirstXamarinApp.iOS",
-        "projectPath": "/Users/HuyDo/Projects/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp.iOS/FirstXamarinApp.iOS.csproj",
-        "packagesPath": "/Users/HuyDo/.nuget/packages/",
-        "outputPath": "/Users/HuyDo/Projects/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp.iOS/obj/",
+        "projectPath": "F:\\DevelopProject\\FirstXamarinAppRepo\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp.iOS\\FirstXamarinApp.iOS.csproj",
+        "packagesPath": "C:\\Users\\Huy Do\\.nuget\\packages\\",
+        "outputPath": "F:\\DevelopProject\\FirstXamarinAppRepo\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/HuyDo/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Huy Do\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "xamarinios10"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/HuyDo/Projects/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp.csproj": {
-                "projectPath": "/Users/HuyDo/Projects/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp.csproj"
+              "F:\\DevelopProject\\FirstXamarinAppRepo\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp.csproj": {
+                "projectPath": "F:\\DevelopProject\\FirstXamarinAppRepo\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp.csproj"
               }
             }
           }
@@ -59,22 +67,30 @@
         }
       }
     },
-    "/Users/HuyDo/Projects/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp.csproj": {
+    "F:\\DevelopProject\\FirstXamarinAppRepo\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/HuyDo/Projects/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp.csproj",
+        "projectUniqueName": "F:\\DevelopProject\\FirstXamarinAppRepo\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp.csproj",
         "projectName": "FirstXamarinApp",
-        "projectPath": "/Users/HuyDo/Projects/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp.csproj",
-        "packagesPath": "/Users/HuyDo/.nuget/packages/",
-        "outputPath": "/Users/HuyDo/Projects/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/obj/",
+        "projectPath": "F:\\DevelopProject\\FirstXamarinAppRepo\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp.csproj",
+        "packagesPath": "C:\\Users\\Huy Do\\.nuget\\packages\\",
+        "outputPath": "F:\\DevelopProject\\FirstXamarinAppRepo\\FirstXamarinApp\\FirstXamarinApp\\FirstXamarinApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/HuyDo/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Huy Do\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -122,7 +138,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }
